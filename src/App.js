@@ -4,7 +4,10 @@ import Menu from ''
 function App() {
   return (
     <>
-    </Menu>
+    <Menu/>
+    <Home/>
+    <ListaCategoria/>
+    <FormCategoria/>
     </>
   );
 }
