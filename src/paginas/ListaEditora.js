@@ -28,10 +28,7 @@ export default function ListaEditora() {
                         <thead>
                             <tr>
                                 <th scope="col">#</th>
-                                <th scope="col">Código</th>
                                 <th scope="col">Nome</th>
-                                <th scope="col">CNPJ</th>
-                                <th scope="col">Endereço</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -43,8 +40,6 @@ export default function ListaEditora() {
                                     </td>
                                     <td>{d.ideditora}</td>
                                     <td>{d.nomeeditora}</td>
-                                    <td>{d.cnpj}</td>
-                                    <td>{d.endereco}</td>
                                 </tr>
                             ))}
                         </tbody>
